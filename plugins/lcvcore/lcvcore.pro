@@ -3,6 +3,8 @@ TARGET   = lcvcore
 QT      += qml quick
 CONFIG  += qt plugin
 
+QT_CONFIG -= no-pkg-config
+
 TARGET = $$qtLibraryTarget($$TARGET)
 uri = plugins.lcvcore
 

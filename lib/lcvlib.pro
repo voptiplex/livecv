@@ -8,6 +8,8 @@ OTHER_FILES = qmldir
 DEFINES += Q_LCV
 DEFINES += Q_LCV_LIB
 
+QT_CONFIG -= no-pkg-config
+
 # Destination
 
 win32:CONFIG(debug, debug|release): DLLDESTDIR = $$quote($$OUT_PWD/../application/debug)
